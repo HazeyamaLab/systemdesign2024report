@@ -40,7 +40,7 @@ Docker Desktopを起動してからVSCodeを開発コンテナーに接続しま
 
 ### 🧐 Docker Desktopを起動しているのに開発コンテナーにVSCodeを接続できない
 
-作業を再開しようとしてVSCodeの開発コンテナーの一覧を確認しても開発コンテナーが表示されなかったり、`Docker からエラーが返されました。Docker デーモンが実行されていることを確認します。`と表示されたり、することがあります。
+作業を再開しようとしてVSCodeの開発コンテナーの一覧を確認しても開発コンテナーが表示されなかったり、`Docker からエラーが返されました。Docker デーモンが実行されていることを確認します。`と表示されたりすることがあります。
 
 この場合、Docker Desktopが休止状態になっている可能性があります。
 休止状態から復帰するには、スタートメニューからDocker Desktopを起動するなどして、Docker Desktopのウィンドウをもう一度開いてください。
@@ -53,4 +53,4 @@ Docker Desktopを起動してからVSCodeを開発コンテナーに接続しま
 ### 🧐 開発コンテナーに割り当てられているメモリが足りない。「`Reconnecting to Devcontainer…`」が頻発する。
 
 `.wslconfig`を編集し、WSLが使用できるメモリのサイズの上限を引き上げてください。[開発環境の構築手順書の「2. Docker Desktopを起動・設定する」](https://github.com/HazeyamaLab/systemdesign2024/blob/main/docs/setup/procedure-for-selfhost-windows.md#2-docker-desktopを起動設定する)の手順を参考にしてください。
-`.wslconfig`の編集後、設定の変更を反映するには、一度[Docker DesktopとWSLを終了する](#docker-desktopおよびwslを終了するには)必要があります。
+`.wslconfig`の編集後、設定の変更を反映するには、一度[Docker DesktopとWSLを終了する](#-docker-desktopおよびwslを終了するには)必要があります。
